@@ -103,107 +103,167 @@ export default function TestPage() {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-gray-50 text-gray-800">
+    <div className="flex flex-col h-screen bg-ui-bg text-ui-fg overflow-hidden relative">
+      {/* Decorative scanning line */}
+      <div className="absolute w-full h-[2px] bg-ui-accent/20 z-50 pointer-events-none top-0 animate-[scan_8s_linear_infinite] shadow-[0_0_10px_var(--ui-accent)]"></div>
+
       {/* Header */}
-      <header className="bg-blue-600 text-white p-4 flex justify-between items-center shadow-md">
-        <h1 className="text-xl font-bold">NEET Mock Test</h1>
-        <div className="flex items-center gap-4">
-          <div className="text-lg font-mono font-semibold bg-blue-700 px-3 py-1 rounded">
-            Time Left: {formatTime(state.timeRemaining)}
+      <header className="bg-ui-fg text-ui-bg p-4 flex justify-between items-center border-b-4 border-ui-border relative z-10">
+        <div className="flex flex-col">
+          <h1 className="text-2xl font-bold leading-none tracking-tight">TERMINAL_SEC</h1>
+          <span className="text-[10px] text-ui-fg-muted uppercase tracking-widest mt-1">Mock Examination Protocol</span>
+        </div>
+
+        <div className="flex items-center gap-6">
+          <div className="flex flex-col items-end">
+            <span className="text-[10px] uppercase tracking-widest text-ui-accent mb-1">Time Remaining</span>
+            <div className="text-3xl font-mono font-bold bg-ui-bg text-ui-fg px-4 py-1 border-2 border-ui-accent animate-pulse-slow">
+              {formatTime(state.timeRemaining)}
+            </div>
           </div>
+
           <button
             onClick={handleSubmit}
-            className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded font-bold transition-colors"
+            className="bg-ui-accent hover:bg-ui-accent-hover text-white px-6 py-4 font-bold transition-colors brutal-btn border-ui-bg border-4"
           >
-            Submit Test
+            TERMINATE & SUBMIT
           </button>
         </div>
       </header>
 
       {/* Main Content Area */}
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1 overflow-hidden relative z-10">
 
         {/* Left Side: Question Display */}
-        <div className="flex-1 flex flex-col p-6 overflow-y-auto">
-          <div className="bg-white p-6 rounded-lg shadow-sm border mb-6 flex-1">
-            <div className="flex justify-between items-center mb-4 border-b pb-2">
-              <span className="font-bold text-lg">Question {currentIndex + 1} of {state.questionIds.length}</span>
-              <span className="text-sm bg-gray-200 px-2 py-1 rounded">{currentQuestion.subject}</span>
+        <div className="flex-1 flex flex-col p-6 overflow-y-auto bg-ui-surface border-r-4 border-ui-border">
+          <div className="flex-1 flex flex-col max-w-4xl mx-auto w-full">
+
+            {/* Question Header */}
+            <div className="flex justify-between items-end mb-6 border-b-4 border-ui-border pb-4">
+              <div className="flex items-center gap-4">
+                <div className="bg-ui-fg text-ui-bg font-bold text-4xl p-4 brutal-border">
+                  {(currentIndex + 1).toString().padStart(3, '0')}
+                </div>
+                <div className="flex flex-col">
+                  <span className="text-xs font-bold uppercase tracking-widest text-ui-fg-muted mb-1">Data Entry / {state.questionIds.length.toString().padStart(3, '0')}</span>
+                  <span className="text-sm bg-ui-border text-ui-bg px-2 py-1 font-bold uppercase inline-block self-start">{currentQuestion.subject}</span>
+                </div>
+              </div>
+              <div className="text-xs font-bold bg-ui-accent text-white px-2 py-1 brutal-border">
+                {currentQuestion.difficulty}
+              </div>
             </div>
 
-            <div className="text-lg mb-8">{currentQuestion.question}</div>
+            {/* Question Text */}
+            <div className="text-2xl font-bold mb-10 leading-tight">
+              {currentQuestion.question}
+            </div>
 
-            <div className="flex flex-col gap-3">
+            {/* Options */}
+            <div className="flex flex-col gap-4 mb-10">
               {Object.entries(currentQuestion.options).map(([key, value]) => (
                 <label
                   key={key}
-                  className={`flex items-center p-3 border rounded cursor-pointer transition-colors ${
-                    selectedOption === key ? 'bg-blue-50 border-blue-400' : 'hover:bg-gray-50'
+                  className={`flex items-start p-4 brutal-border cursor-pointer transition-all ${
+                    selectedOption === key
+                      ? 'bg-ui-fg text-ui-bg translate-x-[3px] translate-y-[3px] !shadow-[3px_3px_0px_0px_var(--ui-border)]'
+                      : 'bg-ui-bg hover:bg-gray-200'
                   }`}
                 >
-                  <input
-                    type="radio"
-                    name={`question-${currentQuestion.id}`}
-                    value={key}
-                    checked={selectedOption === key}
-                    onChange={() => setSelectedOption(key)}
-                    className="mr-3 h-5 w-5 text-blue-600"
-                  />
-                  <span className="font-semibold mr-2">{key}.</span>
-                  <span>{value as string}</span>
+                  <div className="relative flex items-center mt-1">
+                    <input
+                      type="radio"
+                      name={`question-${currentQuestion.id}`}
+                      value={key}
+                      checked={selectedOption === key}
+                      onChange={() => setSelectedOption(key)}
+                      className="sr-only"
+                    />
+                    <div className={`w-6 h-6 border-2 flex items-center justify-center shrink-0 ${
+                      selectedOption === key ? 'border-ui-bg' : 'border-ui-fg bg-white'
+                    }`}>
+                      {selectedOption === key && <span className="block w-3 h-3 bg-ui-accent"></span>}
+                    </div>
+                  </div>
+                  <div className="ml-4 flex">
+                    <span className={`font-bold mr-4 ${selectedOption === key ? 'text-ui-accent' : 'text-ui-fg-muted'}`}>[{key}]</span>
+                    <span className="text-lg">{value as string}</span>
+                  </div>
                 </label>
               ))}
             </div>
-          </div>
 
-          {/* Action Buttons */}
-          <div className="flex justify-between items-center bg-white p-4 rounded-lg shadow-sm border">
-            <div className="flex gap-2">
-              <button
-                onClick={handleSaveAndNext}
-                className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded font-medium"
-              >
-                Save & Next
-              </button>
-              <button
-                onClick={handleClearResponse}
-                className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded font-medium border"
-              >
-                Clear Response
-              </button>
-              <button
-                onClick={handleMarkForReviewAndNext}
-                className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded font-medium"
-              >
-                Mark for Review & Next
-              </button>
+            {/* Spacer */}
+            <div className="flex-1"></div>
+
+            {/* Action Buttons */}
+            <div className="flex justify-between items-center bg-ui-bg p-4 brutal-border mt-auto">
+              <div className="flex gap-3">
+                <button
+                  onClick={handleSaveAndNext}
+                  className="bg-[#00CC44] hover:bg-[#00AA33] text-white px-6 py-3 brutal-btn font-bold"
+                >
+                  Save + FWD
+                </button>
+                <button
+                  onClick={handleMarkForReviewAndNext}
+                  className="bg-[#0033FF] hover:bg-[#0022AA] text-white px-6 py-3 brutal-btn font-bold"
+                >
+                  Mark + FWD
+                </button>
+                <button
+                  onClick={handleClearResponse}
+                  className="bg-ui-surface hover:bg-gray-300 text-ui-fg px-6 py-3 brutal-btn font-bold"
+                >
+                  Purge Data
+                </button>
+              </div>
+              <div className="flex gap-3">
+                <button
+                  onClick={handlePrevious}
+                  disabled={currentIndex === 0}
+                  className="bg-ui-surface hover:bg-gray-300 text-ui-fg px-6 py-3 brutal-btn font-bold disabled:opacity-30"
+                >
+                  ← REV
+                </button>
+                <button
+                  onClick={handleNext}
+                  disabled={currentIndex === state.questionIds.length - 1}
+                  className="bg-ui-fg hover:bg-black text-ui-bg px-6 py-3 brutal-btn font-bold disabled:opacity-30"
+                >
+                  FWD →
+                </button>
+              </div>
             </div>
-            <div className="flex gap-2">
-              <button
-                onClick={handlePrevious}
-                disabled={currentIndex === 0}
-                className="bg-gray-200 hover:bg-gray-300 text-gray-800 px-4 py-2 rounded font-medium border disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                &lt;&lt; Back
-              </button>
-              <button
-                onClick={handleNext}
-                disabled={currentIndex === state.questionIds.length - 1}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded font-medium disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                Next &gt;&gt;
-              </button>
-            </div>
+
           </div>
         </div>
 
         {/* Right Side: Question Palette */}
-        <div className="w-80 bg-white border-l p-4 flex flex-col">
-          <h2 className="font-bold mb-4">Question Palette</h2>
-          <QuestionPalette />
+        <div className="w-96 bg-ui-bg flex flex-col">
+          <div className="p-4 border-b-4 border-ui-border bg-ui-surface">
+            <h2 className="font-bold text-xl uppercase tracking-widest flex items-center justify-between">
+              <span>Nav_Matrix</span>
+              <span className="w-3 h-3 bg-ui-accent rounded-full animate-pulse"></span>
+            </h2>
+          </div>
+          <div className="p-4 flex-1 overflow-hidden">
+            <QuestionPalette />
+          </div>
         </div>
 
       </div>
+
+      {/* Add keyframes for scanning line via inline style since it's a one-off effect */}
+      <style dangerouslySetInnerHTML={{__html: `
+        @keyframes scan {
+          0% { top: -10px; }
+          100% { top: 100vh; }
+        }
+        .animate-[scan_8s_linear_infinite] {
+          animation: scan 8s linear infinite;
+        }
+      `}} />
     </div>
   );
 }

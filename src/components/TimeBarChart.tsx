@@ -34,8 +34,8 @@ export default function TimeBarChart() {
             const val = Math.round(tick * maxTime);
             return (
               <g key={tick}>
-                <line x1={0} y1={y} x2={innerWidth} y2={y} stroke="#e5e7eb" strokeDasharray="4" />
-                <text x={-5} y={y + 4} textAnchor="end" fontSize="10" fill="#6b7280">{val}s</text>
+                <line x1={0} y1={y} x2={innerWidth} y2={y} stroke="var(--ui-border)" strokeDasharray="2, 4" opacity="0.3" />
+                <text x={-5} y={y + 4} textAnchor="end" fontSize="10" fontWeight="bold" fontFamily="var(--font-mono)" fill="var(--ui-fg-muted)">{val}s</text>
               </g>
             );
           })}
@@ -47,9 +47,9 @@ export default function TimeBarChart() {
             const y = innerHeight - height;
 
             // Color based on time spent (e.g. >120s is red, <60s is green)
-            let fill = "#3b82f6"; // blue
-            if (data.time > 120) fill = "#ef4444"; // red
-            else if (data.time < 60) fill = "#22c55e"; // green
+            let fill = "var(--state-marked)"; // blue
+            if (data.time > 120) fill = "var(--state-not-answered)"; // red/orange
+            else if (data.time < 60) fill = "var(--state-answered)"; // green
 
             return (
               <g key={data.questionIndex}>
@@ -60,8 +60,9 @@ export default function TimeBarChart() {
                   width={barWidth}
                   height={height}
                   fill={fill}
-                  rx="2"
-                  className="transition-all hover:opacity-80 cursor-pointer"
+                  stroke="var(--ui-border)"
+                  strokeWidth="1"
+                  className="transition-all hover:brightness-110 cursor-pointer"
                 />
                 {/* X-axis labels (only show every 5th or 10th to avoid crowding) */}
                 {(data.questionIndex % Math.ceil(timeData.length / 20) === 0 || data.questionIndex === 1 || data.questionIndex === timeData.length) && (
@@ -70,7 +71,9 @@ export default function TimeBarChart() {
                     y={innerHeight + 15}
                     textAnchor="middle"
                     fontSize="10"
-                    fill="#6b7280"
+                    fontWeight="bold"
+                    fontFamily="var(--font-mono)"
+                    fill="var(--ui-fg)"
                   >
                     {data.questionIndex}
                   </text>
@@ -80,8 +83,8 @@ export default function TimeBarChart() {
           })}
 
           {/* Axes */}
-          <line x1={0} y1={0} x2={0} y2={innerHeight} stroke="#9ca3af" />
-          <line x1={0} y1={innerHeight} x2={innerWidth} y2={innerHeight} stroke="#9ca3af" />
+          <line x1={0} y1={0} x2={0} y2={innerHeight} stroke="var(--ui-border)" strokeWidth="2" />
+          <line x1={0} y1={innerHeight} x2={innerWidth} y2={innerHeight} stroke="var(--ui-border)" strokeWidth="2" />
         </g>
       </svg>
     </div>

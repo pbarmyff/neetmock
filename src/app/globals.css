@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Industrial / Utilitarian Theme */
+  --ui-bg: #EAEAE4;        /* Stark, slightly warm grey/white */
+  --ui-surface: #F5F5F0;   /* Inner panels */
+  --ui-fg: #111111;        /* Deep black for high contrast */
+  --ui-fg-muted: #555555;
+  --ui-accent: #FF3B00;    /* Safety Orange */
+  --ui-accent-hover: #CC2F00;
+  --ui-border: #111111;    /* Stark black borders */
+
+  /* State Colors */
+  --state-unvisited: #CCCCCC;
+  --state-not-answered: #FF3B00;
+  --state-answered: #00CC44;
+  --state-marked: #0033FF;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-syne), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-space-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --color-ui-bg: var(--ui-bg);
+  --color-ui-surface: var(--ui-surface);
+  --color-ui-fg: var(--ui-fg);
+  --color-ui-fg-muted: var(--ui-fg-muted);
+  --color-ui-accent: var(--ui-accent);
+  --color-ui-accent-hover: var(--ui-accent-hover);
+  --color-ui-border: var(--ui-border);
+  --color-state-unvisited: var(--state-unvisited);
+  --color-state-not-answered: var(--state-not-answered);
+  --color-state-answered: var(--state-answered);
+  --color-state-marked: var(--state-marked);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--ui-fg);
+  background-color: var(--ui-bg);
+  background-image: radial-gradient(#d5d5d0 2px, transparent 2px);
+  background-size: 24px 24px;
+  font-family: var(--font-mono);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+/* Utilitarian Utilities */
+.brutal-border {
+  border: 3px solid var(--ui-border);
+  box-shadow: 6px 6px 0px 0px var(--ui-border);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.brutal-border:active:not(:disabled) {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0px 0px var(--ui-border);
+}
+
+.brutal-panel {
+  background-color: var(--ui-surface);
+  border: 3px solid var(--ui-border);
+}
+
+.brutal-btn {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 3px solid var(--ui-border);
+  box-shadow: 6px 6px 0px 0px var(--ui-border);
+  transition: transform 0.1s cubic-bezier(0, 0, 0.2, 1), box-shadow 0.1s cubic-bezier(0, 0, 0.2, 1);
+  letter-spacing: 0.05em;
+}
+
+.brutal-btn:active:not(:disabled) {
+  transform: translate(6px, 6px);
+  box-shadow: 0px 0px 0px 0px var(--ui-border);
+}
+
+.brutal-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: 0px 0px 0px 0px var(--ui-border);
+  transform: translate(6px, 6px);
 }

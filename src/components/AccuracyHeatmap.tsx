@@ -36,14 +36,14 @@ export default function AccuracyHeatmap() {
   if (topicAccuracy.length === 0) return <div>No data available</div>;
 
   const getColor = (accuracy: number) => {
-    if (accuracy >= 80) return "#22c55e"; // green-500
-    if (accuracy >= 50) return "#eab308"; // yellow-500
-    if (accuracy >= 20) return "#f97316"; // orange-500
-    return "#ef4444"; // red-500
+    if (accuracy >= 80) return "var(--state-answered)"; // green
+    if (accuracy >= 50) return "#FFCC00"; // high-viz yellow
+    if (accuracy >= 20) return "var(--ui-accent)"; // safety orange
+    return "#DD0000"; // dark red
   };
 
   const boxSize = 60;
-  const gap = 10;
+  const gap = 4; // Tighter, sharper grid
   const cols = Math.floor(400 / (boxSize + gap));
   const rows = Math.ceil(topicAccuracy.length / cols);
 
@@ -60,7 +60,7 @@ export default function AccuracyHeatmap() {
           const y = row * (boxSize + gap);
 
           return (
-            <g key={data.topic}>
+            <g key={data.topic} className="group/cell">
               <title>{`${data.topic}: ${data.accuracy.toFixed(1)}% (${data.correct}/${data.total})`}</title>
               <rect
                 x={x}
@@ -68,42 +68,47 @@ export default function AccuracyHeatmap() {
                 width={boxSize}
                 height={boxSize}
                 fill={getColor(data.accuracy)}
-                rx="4"
-                className="transition-all hover:opacity-80 cursor-pointer"
+                stroke="var(--ui-border)"
+                strokeWidth="2"
+                className="transition-all hover:brightness-110 cursor-pointer origin-center"
               />
+              {/* Inner tech detail */}
+              <rect x={x + 4} y={y + 4} width="4" height="4" fill="rgba(0,0,0,0.2)" pointerEvents="none" />
+
               <text
                 x={x + boxSize / 2}
-                y={y + boxSize / 2}
+                y={y + boxSize / 2 + 1}
                 textAnchor="middle"
                 dominantBaseline="middle"
-                fill="white"
-                fontSize="12"
-                fontWeight="bold"
+                fill="var(--ui-border)"
+                fontSize="14"
+                fontWeight="900"
+                fontFamily="var(--font-mono)"
                 pointerEvents="none"
               >
-                {Math.round(data.accuracy)}%
+                {Math.round(data.accuracy)}
               </text>
             </g>
           );
         })}
 
         {/* Legend */}
-        <g transform={`translate(0, ${height - 20})`}>
-          <rect x="0" y="0" width="15" height="15" fill="#22c55e" rx="2" />
-          <text x="20" y="12" fontSize="10" fill="#666">&ge;80%</text>
+        <g transform={`translate(0, ${height - 20})`} fontFamily="var(--font-mono)" fontSize="10" fontWeight="bold" fill="var(--ui-fg-muted)">
+          <rect x="0" y="0" width="12" height="12" fill="var(--state-answered)" stroke="var(--ui-border)" strokeWidth="1" />
+          <text x="16" y="10">&ge;80</text>
 
-          <rect x="60" y="0" width="15" height="15" fill="#eab308" rx="2" />
-          <text x="80" y="12" fontSize="10" fill="#666">50-79%</text>
+          <rect x="55" y="0" width="12" height="12" fill="#FFCC00" stroke="var(--ui-border)" strokeWidth="1" />
+          <text x="71" y="10">50-79</text>
 
-          <rect x="130" y="0" width="15" height="15" fill="#f97316" rx="2" />
-          <text x="150" y="12" fontSize="10" fill="#666">20-49%</text>
+          <rect x="115" y="0" width="12" height="12" fill="var(--ui-accent)" stroke="var(--ui-border)" strokeWidth="1" />
+          <text x="131" y="10">20-49</text>
 
-          <rect x="200" y="0" width="15" height="15" fill="#ef4444" rx="2" />
-          <text x="220" y="12" fontSize="10" fill="#666">&lt;20%</text>
+          <rect x="175" y="0" width="12" height="12" fill="#DD0000" stroke="var(--ui-border)" strokeWidth="1" />
+          <text x="191" y="10">&lt;20</text>
         </g>
       </svg>
-      <div className="absolute inset-0 pointer-events-none flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-white/90 backdrop-blur-sm text-sm p-4 text-center rounded hidden md:flex">
-        Hover over squares for topic details
+      <div className="absolute inset-0 pointer-events-none flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-ui-bg/80 backdrop-blur-sm text-sm font-bold uppercase tracking-widest p-4 text-center border-4 border-ui-border m-4 text-ui-fg hidden md:flex">
+        Hover elements for detailed telemetry
       </div>
     </div>
   );
