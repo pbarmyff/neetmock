@@ -80,7 +80,7 @@ export default function QuestionPalette() {
 
       {/* Palette Grid */}
       <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar">
-        <div className="grid grid-cols-4 gap-3 pb-4">
+        <div className="grid grid-cols-5 md:grid-cols-4 gap-2 md:gap-3 pb-4">
           {filteredQuestions.map((q) => {
             const globalIndex = state.questionIds.indexOf(q.id);
             const isCurrent = state.currentQuestionId === q.id;

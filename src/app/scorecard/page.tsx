@@ -75,48 +75,48 @@ export default function ScorecardPage() {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <header className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 border-b-4 border-ui-border pb-6">
+        <header className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-12 border-b-4 border-ui-border pb-6 gap-4">
           <div>
             <div className="text-ui-accent font-bold tracking-widest text-xs mb-2">EVALUATION_REPORT</div>
-            <h1 className="text-5xl md:text-6xl font-bold leading-none tracking-tighter uppercase">Scorecard</h1>
+            <h1 className="text-4xl md:text-6xl font-bold leading-none tracking-tighter uppercase">Scorecard</h1>
           </div>
           <button
             onClick={() => { resetTest(); router.push("/"); }}
-            className="mt-6 md:mt-0 bg-ui-fg hover:bg-black text-ui-bg brutal-btn px-6 py-3 text-lg"
+            className="w-full md:w-auto bg-ui-fg hover:bg-black text-ui-bg brutal-btn px-6 py-3 text-lg"
           >
             ← REBOOT_SYS
           </button>
         </header>
 
         {/* Score Overview */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-          <div className="brutal-panel p-6 flex flex-col justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-12">
+          <div className="brutal-panel p-4 md:p-6 flex flex-col justify-between">
             <div className="font-bold text-xs uppercase tracking-widest border-b-2 border-ui-border pb-2 mb-4">Total Score</div>
-            <div className="text-6xl font-bold text-ui-accent tracking-tighter">
-              {score} <span className="text-2xl text-ui-fg-muted font-normal">/ {maxScore}</span>
+            <div className="text-5xl md:text-6xl font-bold text-ui-accent tracking-tighter">
+              {score} <span className="text-xl md:text-2xl text-ui-fg-muted font-normal">/ {maxScore}</span>
             </div>
           </div>
 
-          <div className="brutal-panel p-6 flex flex-col justify-between">
+          <div className="brutal-panel p-4 md:p-6 flex flex-col justify-between">
             <div className="font-bold text-xs uppercase tracking-widest border-b-2 border-ui-border pb-2 mb-4">Predicted Rank</div>
-            <div className="text-5xl font-bold text-[#0033FF] tracking-tighter">
+            <div className="text-4xl md:text-5xl font-bold text-[#0033FF] tracking-tighter break-words">
               {predictedRank.toLocaleString()}
             </div>
           </div>
 
-          <div className="brutal-panel p-6 col-span-1 md:col-span-2 flex justify-between items-center">
-            <div className="w-full grid grid-cols-3 gap-4 text-center">
+          <div className="brutal-panel p-4 md:p-6 col-span-1 md:col-span-2 lg:col-span-2 flex justify-between items-center">
+            <div className="w-full grid grid-cols-3 gap-2 md:gap-4 text-center">
               <div className="flex flex-col items-center">
-                <div className="text-4xl font-bold text-[#00CC44] mb-2">{correctCount}</div>
-                <div className="text-xs font-bold uppercase tracking-widest bg-ui-fg text-ui-bg px-2 py-1">Correct</div>
+                <div className="text-3xl md:text-4xl font-bold text-[#00CC44] mb-2">{correctCount}</div>
+                <div className="text-[10px] md:text-xs font-bold uppercase tracking-widest bg-ui-fg text-ui-bg px-1 md:px-2 py-1">Correct</div>
               </div>
-              <div className="flex flex-col items-center border-l-2 border-r-2 border-ui-border">
-                <div className="text-4xl font-bold text-[#FF3B00] mb-2">{incorrectCount}</div>
-                <div className="text-xs font-bold uppercase tracking-widest bg-ui-fg text-ui-bg px-2 py-1">Incorrect</div>
+              <div className="flex flex-col items-center border-l-2 border-r-2 border-ui-border px-1">
+                <div className="text-3xl md:text-4xl font-bold text-[#FF3B00] mb-2">{incorrectCount}</div>
+                <div className="text-[10px] md:text-xs font-bold uppercase tracking-widest bg-ui-fg text-ui-bg px-1 md:px-2 py-1">Incorrect</div>
               </div>
               <div className="flex flex-col items-center">
-                <div className="text-4xl font-bold text-ui-fg-muted mb-2">{unattemptedCount}</div>
-                <div className="text-xs font-bold uppercase tracking-widest bg-ui-fg text-ui-bg px-2 py-1">Skipped</div>
+                <div className="text-3xl md:text-4xl font-bold text-ui-fg-muted mb-2">{unattemptedCount}</div>
+                <div className="text-[10px] md:text-xs font-bold uppercase tracking-widest bg-ui-fg text-ui-bg px-1 md:px-2 py-1">Skipped</div>
               </div>
             </div>
           </div>
@@ -139,10 +139,10 @@ export default function ScorecardPage() {
         </div>
 
         {/* Solutions Review Mode Toggle */}
-        <div className="flex justify-center mb-12 border-t-4 border-b-4 border-ui-border py-8">
+        <div className="flex justify-center mb-12 border-t-4 border-b-4 border-ui-border py-4 md:py-8">
           <button
             onClick={() => setShowSolutions(!showSolutions)}
-            className="bg-ui-accent hover:bg-ui-accent-hover text-white brutal-btn text-2xl px-12 py-4"
+            className="w-full md:w-auto bg-ui-accent hover:bg-ui-accent-hover text-white brutal-btn text-lg md:text-2xl px-6 md:px-12 py-4"
           >
             {showSolutions ? "HIDE_LOGS" : "DUMP_SOLUTIONS_LOG"}
           </button>
@@ -151,7 +151,7 @@ export default function ScorecardPage() {
         {/* Solutions Review Mode */}
         {showSolutions && (
           <div className="space-y-8 pb-24">
-            <h2 className="text-4xl font-bold mb-8 uppercase tracking-tighter">Solution_Logs</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 uppercase tracking-tighter">Solution_Logs</h2>
             {state.questionIds.map((id, index) => {
               const q = questionsData.find(q => q.id === id);
               if (!q) return null;
@@ -166,24 +166,24 @@ export default function ScorecardPage() {
                 <div key={id} className={`brutal-panel p-0 flex flex-col md:flex-row border-l-8 ${borderColor}`}>
 
                   {/* Left Column: Metadata */}
-                  <div className="md:w-48 bg-ui-surface border-b-4 md:border-b-0 md:border-r-4 border-ui-border p-6 flex flex-col justify-between shrink-0">
-                    <div>
-                      <div className="text-4xl font-bold mb-4">{(index + 1).toString().padStart(3, '0')}</div>
-                      <div className="flex flex-col gap-2">
-                        <span className="text-[10px] uppercase font-bold tracking-widest bg-ui-fg text-ui-bg px-2 py-1 self-start">{q.subject}</span>
-                        <span className="text-[10px] uppercase font-bold tracking-widest bg-ui-surface border-2 border-ui-border px-2 py-1 self-start">{q.topic}</span>
+                  <div className="md:w-48 bg-ui-surface border-b-4 md:border-b-0 md:border-r-4 border-ui-border p-4 md:p-6 flex flex-col justify-between shrink-0">
+                    <div className="flex flex-row md:flex-col justify-between md:justify-start items-start md:items-stretch">
+                      <div className="text-3xl md:text-4xl font-bold mb-0 md:mb-4">{(index + 1).toString().padStart(3, '0')}</div>
+                      <div className="flex flex-col gap-2 items-end md:items-start">
+                        <span className="text-[10px] uppercase font-bold tracking-widest bg-ui-fg text-ui-bg px-2 py-1">{q.subject}</span>
+                        <span className="text-[10px] uppercase font-bold tracking-widest bg-ui-surface border-2 border-ui-border px-2 py-1 text-right md:text-left">{q.topic}</span>
                       </div>
                     </div>
-                    <div className="mt-8 pt-4 border-t-2 border-ui-border grid grid-cols-1 gap-2 text-xs font-bold uppercase tracking-wider text-ui-fg-muted">
-                      <div className="flex justify-between"><span>LVL:</span> <span className="text-ui-fg">{q.difficulty}</span></div>
-                      <div className="flex justify-between"><span>YR:</span> <span className="text-ui-fg">{q.year}</span></div>
-                      <div className="flex justify-between"><span>T:</span> <span className="text-ui-fg">{state.timeSpent[id] || 0}s</span></div>
+                    <div className="mt-4 md:mt-8 pt-4 border-t-2 border-ui-border grid grid-cols-3 md:grid-cols-1 gap-2 text-[10px] md:text-xs font-bold uppercase tracking-wider text-ui-fg-muted">
+                      <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start"><span>LVL:</span> <span className="text-ui-fg">{q.difficulty}</span></div>
+                      <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start border-l-2 md:border-l-0 border-r-2 md:border-r-0 border-ui-border px-2 md:px-0"><span>YR:</span> <span className="text-ui-fg">{q.year}</span></div>
+                      <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start"><span>T:</span> <span className="text-ui-fg">{state.timeSpent[id] || 0}s</span></div>
                     </div>
                   </div>
 
                   {/* Right Column: Content */}
-                  <div className="flex-1 p-6 md:p-8 flex flex-col">
-                    <p className="text-xl font-bold mb-8 leading-tight">{q.question}</p>
+                  <div className="flex-1 p-4 md:p-8 flex flex-col">
+                    <p className="text-lg md:text-xl font-bold mb-6 md:mb-8 leading-tight">{q.question}</p>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-auto">
                       {/* Options */}
@@ -217,10 +217,10 @@ export default function ScorecardPage() {
                       </div>
 
                       {/* Explanation */}
-                      <div className="bg-ui-fg text-ui-bg p-6 relative">
-                        <div className="absolute top-0 right-0 w-8 h-8 bg-ui-surface border-b-4 border-l-4 border-ui-border"></div>
-                        <h4 className="text-xs font-bold uppercase tracking-widest mb-4 text-ui-accent border-b-2 border-ui-border/30 pb-2">System_Explanation</h4>
-                        <p className="text-lg leading-relaxed">{q.explanation}</p>
+                      <div className="bg-ui-fg text-ui-bg p-4 md:p-6 relative mt-4 lg:mt-0">
+                        <div className="absolute top-0 right-0 w-6 h-6 md:w-8 md:h-8 bg-ui-surface border-b-4 border-l-4 border-ui-border"></div>
+                        <h4 className="text-[10px] md:text-xs font-bold uppercase tracking-widest mb-2 md:mb-4 text-ui-accent border-b-2 border-ui-border/30 pb-2">System_Explanation</h4>
+                        <p className="text-base md:text-lg leading-relaxed">{q.explanation}</p>
                       </div>
                     </div>
                   </div>

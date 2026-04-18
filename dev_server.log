@@ -5,18 +5,7 @@
 ▲ Next.js 16.2.4 (Turbopack)
 - Local:         http://localhost:3000
 - Network:       http://192.168.0.2:3000
-✓ Ready in 512ms
+✓ Ready in 533ms
 
-○ Compiling / ...
- GET / 200 in 5.1s (next.js: 4.9s, application-code: 273ms)
- GET /test 200 in 667ms (next.js: 596ms, application-code: 72ms)
- GET /scorecard 200 in 555ms (next.js: 484ms, application-code: 71ms)
- GET /scorecard 200 in 44ms (next.js: 5ms, application-code: 40ms)
-✓ Compiled in 539ms
- GET / 200 in 354ms (next.js: 155ms, application-code: 199ms)
- GET / 200 in 52ms (next.js: 4ms, application-code: 48ms)
- GET /test 200 in 55ms (next.js: 26ms, application-code: 29ms)
- GET / 200 in 59ms (next.js: 5ms, application-code: 54ms)
- GET /test 200 in 36ms (next.js: 6ms, application-code: 30ms)
- GET /scorecard 200 in 105ms (next.js: 14ms, application-code: 91ms)
- GET /scorecard 200 in 56ms (next.js: 9ms, application-code: 47ms)
+ GET / 200 in 816ms (next.js: 531ms, application-code: 285ms)
+ GET /admin 200 in 1061ms (next.js: 953ms, application-code: 108ms)

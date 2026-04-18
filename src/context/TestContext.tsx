@@ -1,6 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { supabase } from '@/lib/supabase';
 
 export type QuestionStatus = 'not_visited' | 'not_answered' | 'answered' | 'marked';
 
@@ -94,8 +95,28 @@ export const TestProvider = ({ children }: { children: ReactNode }) => {
     });
   };
 
-  const submitTest = () => {
+  const submitTest = async () => {
     setState(prev => ({ ...prev, testStatus: 'submitted' }));
+
+    // Try to save result to Supabase
+    if (supabase) {
+      try {
+        const result = {
+          config: state.config,
+          answers: state.answers,
+          timeSpent: state.timeSpent,
+          timeRemaining: state.timeRemaining,
+          questionIds: state.questionIds,
+          created_at: new Date().toISOString()
+        };
+
+        await supabase
+          .from('test_results')
+          .insert([result]);
+      } catch (error) {
+        console.error("Failed to save to Supabase:", error);
+      }
+    }
   };
 
   const resetTest = () => {

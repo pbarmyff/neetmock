@@ -108,25 +108,25 @@ export default function TestPage() {
       <div className="absolute w-full h-[2px] bg-ui-accent/20 z-50 pointer-events-none top-0 animate-[scan_8s_linear_infinite] shadow-[0_0_10px_var(--ui-accent)]"></div>
 
       {/* Header */}
-      <header className="bg-ui-fg text-ui-bg p-4 flex justify-between items-center border-b-4 border-ui-border relative z-10">
-        <div className="flex flex-col">
-          <h1 className="text-2xl font-bold leading-none tracking-tight">TERMINAL_SEC</h1>
-          <span className="text-[10px] text-ui-fg-muted uppercase tracking-widest mt-1">Mock Examination Protocol</span>
+      <header className="bg-ui-fg text-ui-bg p-3 md:p-4 flex flex-col md:flex-row justify-between items-center gap-3 border-b-4 border-ui-border relative z-10">
+        <div className="flex flex-col w-full md:w-auto text-center md:text-left">
+          <h1 className="text-xl md:text-2xl font-bold leading-none tracking-tight">TERMINAL_SEC</h1>
+          <span className="text-[10px] text-ui-fg-muted uppercase tracking-widest mt-1 hidden md:block">Mock Examination Protocol</span>
         </div>
 
-        <div className="flex items-center gap-6">
-          <div className="flex flex-col items-end">
-            <span className="text-[10px] uppercase tracking-widest text-ui-accent mb-1">Time Remaining</span>
-            <div className="text-3xl font-mono font-bold bg-ui-bg text-ui-fg px-4 py-1 border-2 border-ui-accent animate-pulse-slow">
+        <div className="flex items-center justify-between w-full md:w-auto md:gap-6">
+          <div className="flex flex-col items-start md:items-end">
+            <span className="text-[10px] uppercase tracking-widest text-ui-accent mb-1 hidden md:block">Time Remaining</span>
+            <div className="text-xl md:text-3xl font-mono font-bold bg-ui-bg text-ui-fg px-2 md:px-4 py-1 border-2 border-ui-accent animate-pulse-slow">
               {formatTime(state.timeRemaining)}
             </div>
           </div>
 
           <button
             onClick={handleSubmit}
-            className="bg-ui-accent hover:bg-ui-accent-hover text-white px-6 py-4 font-bold transition-colors brutal-btn border-ui-bg border-4"
+            className="bg-ui-accent hover:bg-ui-accent-hover text-white px-4 py-2 md:px-6 md:py-4 text-sm md:text-base font-bold transition-colors brutal-btn border-ui-bg border-2 md:border-4"
           >
-            TERMINATE & SUBMIT
+            TERMINATE <span className="hidden md:inline">& SUBMIT</span>
           </button>
         </div>
       </header>
@@ -135,7 +135,7 @@ export default function TestPage() {
       <div className="flex flex-1 overflow-hidden relative z-10">
 
         {/* Left Side: Question Display */}
-        <div className="flex-1 flex flex-col p-6 overflow-y-auto bg-ui-surface border-r-4 border-ui-border">
+        <div className="flex-1 flex flex-col p-4 md:p-6 overflow-y-auto bg-ui-surface md:border-r-4 border-ui-border">
           <div className="flex-1 flex flex-col max-w-4xl mx-auto w-full">
 
             {/* Question Header */}
@@ -155,7 +155,7 @@ export default function TestPage() {
             </div>
 
             {/* Question Text */}
-            <div className="text-2xl font-bold mb-10 leading-tight">
+            <div className="text-xl md:text-2xl font-bold mb-10 leading-tight">
               {currentQuestion.question}
             </div>
 
@@ -197,39 +197,39 @@ export default function TestPage() {
             <div className="flex-1"></div>
 
             {/* Action Buttons */}
-            <div className="flex justify-between items-center bg-ui-bg p-4 brutal-border mt-auto">
-              <div className="flex gap-3">
+            <div className="flex flex-col lg:flex-row justify-between items-center bg-ui-bg p-4 brutal-border mt-auto gap-4">
+              <div className="flex flex-wrap lg:flex-nowrap gap-3 w-full lg:w-auto">
                 <button
                   onClick={handleSaveAndNext}
-                  className="bg-[#00CC44] hover:bg-[#00AA33] text-white px-6 py-3 brutal-btn font-bold"
+                  className="bg-[#00CC44] hover:bg-[#00AA33] text-white px-4 md:px-6 py-3 brutal-btn font-bold flex-1"
                 >
                   Save + FWD
                 </button>
                 <button
                   onClick={handleMarkForReviewAndNext}
-                  className="bg-[#0033FF] hover:bg-[#0022AA] text-white px-6 py-3 brutal-btn font-bold"
+                  className="bg-[#0033FF] hover:bg-[#0022AA] text-white px-4 md:px-6 py-3 brutal-btn font-bold flex-1"
                 >
                   Mark + FWD
                 </button>
                 <button
                   onClick={handleClearResponse}
-                  className="bg-ui-surface hover:bg-gray-300 text-ui-fg px-6 py-3 brutal-btn font-bold"
+                  className="bg-ui-surface hover:bg-gray-300 text-ui-fg px-4 md:px-6 py-3 brutal-btn font-bold flex-1"
                 >
                   Purge Data
                 </button>
               </div>
-              <div className="flex gap-3">
+              <div className="flex gap-3 w-full lg:w-auto">
                 <button
                   onClick={handlePrevious}
                   disabled={currentIndex === 0}
-                  className="bg-ui-surface hover:bg-gray-300 text-ui-fg px-6 py-3 brutal-btn font-bold disabled:opacity-30"
+                  className="bg-ui-surface hover:bg-gray-300 text-ui-fg px-4 md:px-6 py-3 brutal-btn font-bold disabled:opacity-30 flex-1"
                 >
                   ← REV
                 </button>
                 <button
                   onClick={handleNext}
                   disabled={currentIndex === state.questionIds.length - 1}
-                  className="bg-ui-fg hover:bg-black text-ui-bg px-6 py-3 brutal-btn font-bold disabled:opacity-30"
+                  className="bg-ui-fg hover:bg-black text-ui-bg px-4 md:px-6 py-3 brutal-btn font-bold disabled:opacity-30 flex-1"
                 >
                   FWD →
                 </button>
@@ -240,18 +240,27 @@ export default function TestPage() {
         </div>
 
         {/* Right Side: Question Palette */}
-        <div className="w-96 bg-ui-bg flex flex-col">
+        <div className="hidden md:flex w-80 lg:w-96 bg-ui-bg flex-col border-l-4 md:border-l-0 border-ui-border">
           <div className="p-4 border-b-4 border-ui-border bg-ui-surface">
             <h2 className="font-bold text-xl uppercase tracking-widest flex items-center justify-between">
               <span>Nav_Matrix</span>
               <span className="w-3 h-3 bg-ui-accent rounded-full animate-pulse"></span>
             </h2>
           </div>
-          <div className="p-4 flex-1 overflow-hidden">
+          <div className="p-4 flex-1 overflow-y-auto">
             <QuestionPalette />
           </div>
         </div>
 
+      </div>
+
+      {/* Mobile Nav Matrix Toggle */}
+      <div className="md:hidden border-t-4 border-ui-border bg-ui-surface p-4 max-h-[30vh] overflow-y-auto">
+        <h2 className="font-bold text-sm uppercase tracking-widest flex items-center justify-between mb-2">
+          <span>Nav_Matrix</span>
+          <span className="w-2 h-2 bg-ui-accent rounded-full animate-pulse"></span>
+        </h2>
+        <QuestionPalette />
       </div>
 
       {/* Add keyframes for scanning line via inline style since it's a one-off effect */}
