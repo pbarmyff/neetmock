@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "1",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 1",
+      "B": "Option B for question 1",
+      "C": "Option C for question 1",
+      "D": "Option D for question 1"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Mechanics.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "2",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 2",
+      "B": "Option B for question 2",
+      "C": "Option C for question 2",
+      "D": "Option D for question 2"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Electromagnetism.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "3",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 3",
+      "B": "Option B for question 3",
+      "C": "Option C for question 3",
+      "D": "Option D for question 3"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Thermodynamics.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "4",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 4",
+      "B": "Option B for question 4",
+      "C": "Option C for question 4",
+      "D": "Option D for question 4"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Modern Physics.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "5",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 5",
+      "B": "Option B for question 5",
+      "C": "Option C for question 5",
+      "D": "Option D for question 5"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Optics.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "6",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 6",
+      "B": "Option B for question 6",
+      "C": "Option C for question 6",
+      "D": "Option D for question 6"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Mechanics.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "7",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 7",
+      "B": "Option B for question 7",
+      "C": "Option C for question 7",
+      "D": "Option D for question 7"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Electromagnetism.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "8",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 8",
+      "B": "Option B for question 8",
+      "C": "Option C for question 8",
+      "D": "Option D for question 8"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Thermodynamics.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "9",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 9",
+      "B": "Option B for question 9",
+      "C": "Option C for question 9",
+      "D": "Option D for question 9"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Modern Physics.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "10",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 10",
+      "B": "Option B for question 10",
+      "C": "Option C for question 10",
+      "D": "Option D for question 10"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Optics.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "11",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 11",
+      "B": "Option B for question 11",
+      "C": "Option C for question 11",
+      "D": "Option D for question 11"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Mechanics.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "12",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 12",
+      "B": "Option B for question 12",
+      "C": "Option C for question 12",
+      "D": "Option D for question 12"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Electromagnetism.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "13",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 13",
+      "B": "Option B for question 13",
+      "C": "Option C for question 13",
+      "D": "Option D for question 13"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Thermodynamics.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "14",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 14",
+      "B": "Option B for question 14",
+      "C": "Option C for question 14",
+      "D": "Option D for question 14"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Modern Physics.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "15",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 15",
+      "B": "Option B for question 15",
+      "C": "Option C for question 15",
+      "D": "Option D for question 15"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Optics.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "16",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 16",
+      "B": "Option B for question 16",
+      "C": "Option C for question 16",
+      "D": "Option D for question 16"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Mechanics.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "17",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 17",
+      "B": "Option B for question 17",
+      "C": "Option C for question 17",
+      "D": "Option D for question 17"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Electromagnetism.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "18",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 18",
+      "B": "Option B for question 18",
+      "C": "Option C for question 18",
+      "D": "Option D for question 18"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Thermodynamics.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "19",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 19",
+      "B": "Option B for question 19",
+      "C": "Option C for question 19",
+      "D": "Option D for question 19"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Modern Physics.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "20",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 20",
+      "B": "Option B for question 20",
+      "C": "Option C for question 20",
+      "D": "Option D for question 20"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Optics.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "21",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 21",
+      "B": "Option B for question 21",
+      "C": "Option C for question 21",
+      "D": "Option D for question 21"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Mechanics.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "22",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 22",
+      "B": "Option B for question 22",
+      "C": "Option C for question 22",
+      "D": "Option D for question 22"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Electromagnetism.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "23",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 23",
+      "B": "Option B for question 23",
+      "C": "Option C for question 23",
+      "D": "Option D for question 23"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Thermodynamics.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "24",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 24",
+      "B": "Option B for question 24",
+      "C": "Option C for question 24",
+      "D": "Option D for question 24"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Modern Physics.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "25",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 25",
+      "B": "Option B for question 25",
+      "C": "Option C for question 25",
+      "D": "Option D for question 25"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Optics.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "26",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 26",
+      "B": "Option B for question 26",
+      "C": "Option C for question 26",
+      "D": "Option D for question 26"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Mechanics.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "27",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 27",
+      "B": "Option B for question 27",
+      "C": "Option C for question 27",
+      "D": "Option D for question 27"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Electromagnetism.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "28",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 28",
+      "B": "Option B for question 28",
+      "C": "Option C for question 28",
+      "D": "Option D for question 28"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Thermodynamics.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "29",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 29",
+      "B": "Option B for question 29",
+      "C": "Option C for question 29",
+      "D": "Option D for question 29"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Modern Physics.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "30",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 30",
+      "B": "Option B for question 30",
+      "C": "Option C for question 30",
+      "D": "Option D for question 30"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Optics.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "31",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 31",
+      "B": "Option B for question 31",
+      "C": "Option C for question 31",
+      "D": "Option D for question 31"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Mechanics.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "32",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 32",
+      "B": "Option B for question 32",
+      "C": "Option C for question 32",
+      "D": "Option D for question 32"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Electromagnetism.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "33",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 33",
+      "B": "Option B for question 33",
+      "C": "Option C for question 33",
+      "D": "Option D for question 33"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Thermodynamics.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "34",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 34",
+      "B": "Option B for question 34",
+      "C": "Option C for question 34",
+      "D": "Option D for question 34"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Modern Physics.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "35",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 35",
+      "B": "Option B for question 35",
+      "C": "Option C for question 35",
+      "D": "Option D for question 35"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Optics.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "36",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 36",
+      "B": "Option B for question 36",
+      "C": "Option C for question 36",
+      "D": "Option D for question 36"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Mechanics.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "37",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 37",
+      "B": "Option B for question 37",
+      "C": "Option C for question 37",
+      "D": "Option D for question 37"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Electromagnetism.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "38",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 38",
+      "B": "Option B for question 38",
+      "C": "Option C for question 38",
+      "D": "Option D for question 38"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Thermodynamics.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "39",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 39",
+      "B": "Option B for question 39",
+      "C": "Option C for question 39",
+      "D": "Option D for question 39"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Modern Physics.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "40",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 40",
+      "B": "Option B for question 40",
+      "C": "Option C for question 40",
+      "D": "Option D for question 40"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Optics.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "41",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Mechanics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Mechanics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 41",
+      "B": "Option B for question 41",
+      "C": "Option C for question 41",
+      "D": "Option D for question 41"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Mechanics.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "42",
+    "subject": "Physics",
+    "topic": "Electromagnetism",
+    "subtopic": "Electromagnetism Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Electromagnetism. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 42",
+      "B": "Option B for question 42",
+      "C": "Option C for question 42",
+      "D": "Option D for question 42"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Electromagnetism.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "43",
+    "subject": "Physics",
+    "topic": "Thermodynamics",
+    "subtopic": "Thermodynamics Subtopic 1",
+    "question": "This is a sample Easy question for Physics in the topic of Thermodynamics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 43",
+      "B": "Option B for question 43",
+      "C": "Option C for question 43",
+      "D": "Option D for question 43"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Thermodynamics.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "44",
+    "subject": "Physics",
+    "topic": "Modern Physics",
+    "subtopic": "Modern Physics Subtopic 2",
+    "question": "This is a sample Medium question for Physics in the topic of Modern Physics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 44",
+      "B": "Option B for question 44",
+      "C": "Option C for question 44",
+      "D": "Option D for question 44"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Modern Physics.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "45",
+    "subject": "Physics",
+    "topic": "Optics",
+    "subtopic": "Optics Subtopic 3",
+    "question": "This is a sample Hard question for Physics in the topic of Optics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 45",
+      "B": "Option B for question 45",
+      "C": "Option C for question 45",
+      "D": "Option D for question 45"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Optics.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "46",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 46",
+      "B": "Option B for question 46",
+      "C": "Option C for question 46",
+      "D": "Option D for question 46"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "47",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 47",
+      "B": "Option B for question 47",
+      "C": "Option C for question 47",
+      "D": "Option D for question 47"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "48",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 48",
+      "B": "Option B for question 48",
+      "C": "Option C for question 48",
+      "D": "Option D for question 48"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "49",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 49",
+      "B": "Option B for question 49",
+      "C": "Option C for question 49",
+      "D": "Option D for question 49"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "50",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 50",
+      "B": "Option B for question 50",
+      "C": "Option C for question 50",
+      "D": "Option D for question 50"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "51",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 51",
+      "B": "Option B for question 51",
+      "C": "Option C for question 51",
+      "D": "Option D for question 51"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "52",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 52",
+      "B": "Option B for question 52",
+      "C": "Option C for question 52",
+      "D": "Option D for question 52"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "53",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 53",
+      "B": "Option B for question 53",
+      "C": "Option C for question 53",
+      "D": "Option D for question 53"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "54",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 54",
+      "B": "Option B for question 54",
+      "C": "Option C for question 54",
+      "D": "Option D for question 54"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "55",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 55",
+      "B": "Option B for question 55",
+      "C": "Option C for question 55",
+      "D": "Option D for question 55"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "56",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 56",
+      "B": "Option B for question 56",
+      "C": "Option C for question 56",
+      "D": "Option D for question 56"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "57",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 57",
+      "B": "Option B for question 57",
+      "C": "Option C for question 57",
+      "D": "Option D for question 57"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "58",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 58",
+      "B": "Option B for question 58",
+      "C": "Option C for question 58",
+      "D": "Option D for question 58"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "59",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 59",
+      "B": "Option B for question 59",
+      "C": "Option C for question 59",
+      "D": "Option D for question 59"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "60",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 60",
+      "B": "Option B for question 60",
+      "C": "Option C for question 60",
+      "D": "Option D for question 60"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "61",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 61",
+      "B": "Option B for question 61",
+      "C": "Option C for question 61",
+      "D": "Option D for question 61"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "62",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 62",
+      "B": "Option B for question 62",
+      "C": "Option C for question 62",
+      "D": "Option D for question 62"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "63",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 63",
+      "B": "Option B for question 63",
+      "C": "Option C for question 63",
+      "D": "Option D for question 63"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "64",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 64",
+      "B": "Option B for question 64",
+      "C": "Option C for question 64",
+      "D": "Option D for question 64"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "65",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 65",
+      "B": "Option B for question 65",
+      "C": "Option C for question 65",
+      "D": "Option D for question 65"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "66",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 66",
+      "B": "Option B for question 66",
+      "C": "Option C for question 66",
+      "D": "Option D for question 66"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "67",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 67",
+      "B": "Option B for question 67",
+      "C": "Option C for question 67",
+      "D": "Option D for question 67"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "68",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 68",
+      "B": "Option B for question 68",
+      "C": "Option C for question 68",
+      "D": "Option D for question 68"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "69",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 69",
+      "B": "Option B for question 69",
+      "C": "Option C for question 69",
+      "D": "Option D for question 69"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "70",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 70",
+      "B": "Option B for question 70",
+      "C": "Option C for question 70",
+      "D": "Option D for question 70"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "71",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 71",
+      "B": "Option B for question 71",
+      "C": "Option C for question 71",
+      "D": "Option D for question 71"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "72",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 72",
+      "B": "Option B for question 72",
+      "C": "Option C for question 72",
+      "D": "Option D for question 72"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "73",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 73",
+      "B": "Option B for question 73",
+      "C": "Option C for question 73",
+      "D": "Option D for question 73"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "74",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 74",
+      "B": "Option B for question 74",
+      "C": "Option C for question 74",
+      "D": "Option D for question 74"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "75",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 75",
+      "B": "Option B for question 75",
+      "C": "Option C for question 75",
+      "D": "Option D for question 75"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "76",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 76",
+      "B": "Option B for question 76",
+      "C": "Option C for question 76",
+      "D": "Option D for question 76"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "77",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 77",
+      "B": "Option B for question 77",
+      "C": "Option C for question 77",
+      "D": "Option D for question 77"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "78",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 78",
+      "B": "Option B for question 78",
+      "C": "Option C for question 78",
+      "D": "Option D for question 78"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "79",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 79",
+      "B": "Option B for question 79",
+      "C": "Option C for question 79",
+      "D": "Option D for question 79"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "80",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 80",
+      "B": "Option B for question 80",
+      "C": "Option C for question 80",
+      "D": "Option D for question 80"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "81",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 81",
+      "B": "Option B for question 81",
+      "C": "Option C for question 81",
+      "D": "Option D for question 81"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "82",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 82",
+      "B": "Option B for question 82",
+      "C": "Option C for question 82",
+      "D": "Option D for question 82"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "83",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 83",
+      "B": "Option B for question 83",
+      "C": "Option C for question 83",
+      "D": "Option D for question 83"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "84",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 84",
+      "B": "Option B for question 84",
+      "C": "Option C for question 84",
+      "D": "Option D for question 84"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "85",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 85",
+      "B": "Option B for question 85",
+      "C": "Option C for question 85",
+      "D": "Option D for question 85"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "86",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 86",
+      "B": "Option B for question 86",
+      "C": "Option C for question 86",
+      "D": "Option D for question 86"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "87",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 87",
+      "B": "Option B for question 87",
+      "C": "Option C for question 87",
+      "D": "Option D for question 87"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "88",
+    "subject": "Chemistry",
+    "topic": "Physical Chemistry",
+    "subtopic": "Physical Chemistry Subtopic 1",
+    "question": "This is a sample Easy question for Chemistry in the topic of Physical Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 88",
+      "B": "Option B for question 88",
+      "C": "Option C for question 88",
+      "D": "Option D for question 88"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Physical Chemistry.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "89",
+    "subject": "Chemistry",
+    "topic": "Organic Chemistry",
+    "subtopic": "Organic Chemistry Subtopic 2",
+    "question": "This is a sample Medium question for Chemistry in the topic of Organic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 89",
+      "B": "Option B for question 89",
+      "C": "Option C for question 89",
+      "D": "Option D for question 89"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Organic Chemistry.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "90",
+    "subject": "Chemistry",
+    "topic": "Inorganic Chemistry",
+    "subtopic": "Inorganic Chemistry Subtopic 3",
+    "question": "This is a sample Hard question for Chemistry in the topic of Inorganic Chemistry. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 90",
+      "B": "Option B for question 90",
+      "C": "Option C for question 90",
+      "D": "Option D for question 90"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Inorganic Chemistry.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "91",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 91",
+      "B": "Option B for question 91",
+      "C": "Option C for question 91",
+      "D": "Option D for question 91"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Genetics.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "92",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 92",
+      "B": "Option B for question 92",
+      "C": "Option C for question 92",
+      "D": "Option D for question 92"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Ecology.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "93",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 93",
+      "B": "Option B for question 93",
+      "C": "Option C for question 93",
+      "D": "Option D for question 93"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Human Physiology.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "94",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 94",
+      "B": "Option B for question 94",
+      "C": "Option C for question 94",
+      "D": "Option D for question 94"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Plant Physiology.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "95",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 95",
+      "B": "Option B for question 95",
+      "C": "Option C for question 95",
+      "D": "Option D for question 95"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Cell Biology.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "96",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 96",
+      "B": "Option B for question 96",
+      "C": "Option C for question 96",
+      "D": "Option D for question 96"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Genetics.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "97",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 97",
+      "B": "Option B for question 97",
+      "C": "Option C for question 97",
+      "D": "Option D for question 97"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Ecology.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "98",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 98",
+      "B": "Option B for question 98",
+      "C": "Option C for question 98",
+      "D": "Option D for question 98"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Human Physiology.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "99",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 99",
+      "B": "Option B for question 99",
+      "C": "Option C for question 99",
+      "D": "Option D for question 99"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Plant Physiology.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "100",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 100",
+      "B": "Option B for question 100",
+      "C": "Option C for question 100",
+      "D": "Option D for question 100"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Cell Biology.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "101",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 101",
+      "B": "Option B for question 101",
+      "C": "Option C for question 101",
+      "D": "Option D for question 101"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Genetics.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "102",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 102",
+      "B": "Option B for question 102",
+      "C": "Option C for question 102",
+      "D": "Option D for question 102"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Ecology.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "103",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 103",
+      "B": "Option B for question 103",
+      "C": "Option C for question 103",
+      "D": "Option D for question 103"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Human Physiology.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "104",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 104",
+      "B": "Option B for question 104",
+      "C": "Option C for question 104",
+      "D": "Option D for question 104"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Plant Physiology.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "105",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 105",
+      "B": "Option B for question 105",
+      "C": "Option C for question 105",
+      "D": "Option D for question 105"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Cell Biology.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "106",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 106",
+      "B": "Option B for question 106",
+      "C": "Option C for question 106",
+      "D": "Option D for question 106"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Genetics.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "107",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 107",
+      "B": "Option B for question 107",
+      "C": "Option C for question 107",
+      "D": "Option D for question 107"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Ecology.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "108",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 108",
+      "B": "Option B for question 108",
+      "C": "Option C for question 108",
+      "D": "Option D for question 108"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Human Physiology.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "109",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 109",
+      "B": "Option B for question 109",
+      "C": "Option C for question 109",
+      "D": "Option D for question 109"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Plant Physiology.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "110",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 110",
+      "B": "Option B for question 110",
+      "C": "Option C for question 110",
+      "D": "Option D for question 110"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Cell Biology.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "111",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 111",
+      "B": "Option B for question 111",
+      "C": "Option C for question 111",
+      "D": "Option D for question 111"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Genetics.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "112",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 112",
+      "B": "Option B for question 112",
+      "C": "Option C for question 112",
+      "D": "Option D for question 112"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Ecology.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "113",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 113",
+      "B": "Option B for question 113",
+      "C": "Option C for question 113",
+      "D": "Option D for question 113"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Human Physiology.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "114",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 114",
+      "B": "Option B for question 114",
+      "C": "Option C for question 114",
+      "D": "Option D for question 114"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Plant Physiology.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "115",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 115",
+      "B": "Option B for question 115",
+      "C": "Option C for question 115",
+      "D": "Option D for question 115"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Cell Biology.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "116",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 116",
+      "B": "Option B for question 116",
+      "C": "Option C for question 116",
+      "D": "Option D for question 116"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Genetics.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "117",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 117",
+      "B": "Option B for question 117",
+      "C": "Option C for question 117",
+      "D": "Option D for question 117"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Ecology.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "118",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 118",
+      "B": "Option B for question 118",
+      "C": "Option C for question 118",
+      "D": "Option D for question 118"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Human Physiology.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "119",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 119",
+      "B": "Option B for question 119",
+      "C": "Option C for question 119",
+      "D": "Option D for question 119"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Plant Physiology.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "120",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 120",
+      "B": "Option B for question 120",
+      "C": "Option C for question 120",
+      "D": "Option D for question 120"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Cell Biology.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "121",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 121",
+      "B": "Option B for question 121",
+      "C": "Option C for question 121",
+      "D": "Option D for question 121"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Genetics.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "122",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 122",
+      "B": "Option B for question 122",
+      "C": "Option C for question 122",
+      "D": "Option D for question 122"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Ecology.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "123",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 123",
+      "B": "Option B for question 123",
+      "C": "Option C for question 123",
+      "D": "Option D for question 123"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Human Physiology.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "124",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 124",
+      "B": "Option B for question 124",
+      "C": "Option C for question 124",
+      "D": "Option D for question 124"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Plant Physiology.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "125",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 125",
+      "B": "Option B for question 125",
+      "C": "Option C for question 125",
+      "D": "Option D for question 125"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Cell Biology.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "126",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 126",
+      "B": "Option B for question 126",
+      "C": "Option C for question 126",
+      "D": "Option D for question 126"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Genetics.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "127",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 127",
+      "B": "Option B for question 127",
+      "C": "Option C for question 127",
+      "D": "Option D for question 127"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Ecology.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "128",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 128",
+      "B": "Option B for question 128",
+      "C": "Option C for question 128",
+      "D": "Option D for question 128"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Human Physiology.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "129",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 129",
+      "B": "Option B for question 129",
+      "C": "Option C for question 129",
+      "D": "Option D for question 129"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Plant Physiology.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "130",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 130",
+      "B": "Option B for question 130",
+      "C": "Option C for question 130",
+      "D": "Option D for question 130"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Cell Biology.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "131",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 131",
+      "B": "Option B for question 131",
+      "C": "Option C for question 131",
+      "D": "Option D for question 131"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Genetics.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "132",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 132",
+      "B": "Option B for question 132",
+      "C": "Option C for question 132",
+      "D": "Option D for question 132"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Ecology.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "133",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 133",
+      "B": "Option B for question 133",
+      "C": "Option C for question 133",
+      "D": "Option D for question 133"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Human Physiology.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "134",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 134",
+      "B": "Option B for question 134",
+      "C": "Option C for question 134",
+      "D": "Option D for question 134"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Plant Physiology.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "135",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 135",
+      "B": "Option B for question 135",
+      "C": "Option C for question 135",
+      "D": "Option D for question 135"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Cell Biology.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "136",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 136",
+      "B": "Option B for question 136",
+      "C": "Option C for question 136",
+      "D": "Option D for question 136"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Genetics.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "137",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 137",
+      "B": "Option B for question 137",
+      "C": "Option C for question 137",
+      "D": "Option D for question 137"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Ecology.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "138",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 138",
+      "B": "Option B for question 138",
+      "C": "Option C for question 138",
+      "D": "Option D for question 138"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Human Physiology.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "139",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 139",
+      "B": "Option B for question 139",
+      "C": "Option C for question 139",
+      "D": "Option D for question 139"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Plant Physiology.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "140",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 140",
+      "B": "Option B for question 140",
+      "C": "Option C for question 140",
+      "D": "Option D for question 140"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Cell Biology.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "141",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 141",
+      "B": "Option B for question 141",
+      "C": "Option C for question 141",
+      "D": "Option D for question 141"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Genetics.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "142",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 142",
+      "B": "Option B for question 142",
+      "C": "Option C for question 142",
+      "D": "Option D for question 142"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Ecology.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "143",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 143",
+      "B": "Option B for question 143",
+      "C": "Option C for question 143",
+      "D": "Option D for question 143"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Human Physiology.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "144",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 144",
+      "B": "Option B for question 144",
+      "C": "Option C for question 144",
+      "D": "Option D for question 144"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Plant Physiology.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "145",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 145",
+      "B": "Option B for question 145",
+      "C": "Option C for question 145",
+      "D": "Option D for question 145"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Cell Biology.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "146",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 146",
+      "B": "Option B for question 146",
+      "C": "Option C for question 146",
+      "D": "Option D for question 146"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Genetics.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "147",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 147",
+      "B": "Option B for question 147",
+      "C": "Option C for question 147",
+      "D": "Option D for question 147"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Ecology.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "148",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 148",
+      "B": "Option B for question 148",
+      "C": "Option C for question 148",
+      "D": "Option D for question 148"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Human Physiology.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "149",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 149",
+      "B": "Option B for question 149",
+      "C": "Option C for question 149",
+      "D": "Option D for question 149"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Plant Physiology.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "150",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 150",
+      "B": "Option B for question 150",
+      "C": "Option C for question 150",
+      "D": "Option D for question 150"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Cell Biology.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "151",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 151",
+      "B": "Option B for question 151",
+      "C": "Option C for question 151",
+      "D": "Option D for question 151"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Genetics.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "152",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 152",
+      "B": "Option B for question 152",
+      "C": "Option C for question 152",
+      "D": "Option D for question 152"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Ecology.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "153",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 153",
+      "B": "Option B for question 153",
+      "C": "Option C for question 153",
+      "D": "Option D for question 153"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Human Physiology.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "154",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 154",
+      "B": "Option B for question 154",
+      "C": "Option C for question 154",
+      "D": "Option D for question 154"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Plant Physiology.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "155",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 155",
+      "B": "Option B for question 155",
+      "C": "Option C for question 155",
+      "D": "Option D for question 155"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Cell Biology.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "156",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 156",
+      "B": "Option B for question 156",
+      "C": "Option C for question 156",
+      "D": "Option D for question 156"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Genetics.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "157",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 157",
+      "B": "Option B for question 157",
+      "C": "Option C for question 157",
+      "D": "Option D for question 157"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Ecology.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "158",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 158",
+      "B": "Option B for question 158",
+      "C": "Option C for question 158",
+      "D": "Option D for question 158"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Human Physiology.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "159",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 159",
+      "B": "Option B for question 159",
+      "C": "Option C for question 159",
+      "D": "Option D for question 159"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Plant Physiology.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "160",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 160",
+      "B": "Option B for question 160",
+      "C": "Option C for question 160",
+      "D": "Option D for question 160"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Cell Biology.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "161",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 161",
+      "B": "Option B for question 161",
+      "C": "Option C for question 161",
+      "D": "Option D for question 161"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Genetics.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "162",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 162",
+      "B": "Option B for question 162",
+      "C": "Option C for question 162",
+      "D": "Option D for question 162"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Ecology.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "163",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 163",
+      "B": "Option B for question 163",
+      "C": "Option C for question 163",
+      "D": "Option D for question 163"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Human Physiology.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "164",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 164",
+      "B": "Option B for question 164",
+      "C": "Option C for question 164",
+      "D": "Option D for question 164"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Plant Physiology.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "165",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 165",
+      "B": "Option B for question 165",
+      "C": "Option C for question 165",
+      "D": "Option D for question 165"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Cell Biology.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "166",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 166",
+      "B": "Option B for question 166",
+      "C": "Option C for question 166",
+      "D": "Option D for question 166"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Genetics.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "167",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 167",
+      "B": "Option B for question 167",
+      "C": "Option C for question 167",
+      "D": "Option D for question 167"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Ecology.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "168",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 168",
+      "B": "Option B for question 168",
+      "C": "Option C for question 168",
+      "D": "Option D for question 168"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Human Physiology.",
+    "difficulty": "Hard",
+    "year": 2021
+  },
+  {
+    "id": "169",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 169",
+      "B": "Option B for question 169",
+      "C": "Option C for question 169",
+      "D": "Option D for question 169"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Plant Physiology.",
+    "difficulty": "Easy",
+    "year": 2022
+  },
+  {
+    "id": "170",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 170",
+      "B": "Option B for question 170",
+      "C": "Option C for question 170",
+      "D": "Option D for question 170"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Cell Biology.",
+    "difficulty": "Medium",
+    "year": 2023
+  },
+  {
+    "id": "171",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 171",
+      "B": "Option B for question 171",
+      "C": "Option C for question 171",
+      "D": "Option D for question 171"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Genetics.",
+    "difficulty": "Hard",
+    "year": 2020
+  },
+  {
+    "id": "172",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 172",
+      "B": "Option B for question 172",
+      "C": "Option C for question 172",
+      "D": "Option D for question 172"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Ecology.",
+    "difficulty": "Easy",
+    "year": 2021
+  },
+  {
+    "id": "173",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 173",
+      "B": "Option B for question 173",
+      "C": "Option C for question 173",
+      "D": "Option D for question 173"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Human Physiology.",
+    "difficulty": "Medium",
+    "year": 2022
+  },
+  {
+    "id": "174",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 174",
+      "B": "Option B for question 174",
+      "C": "Option C for question 174",
+      "D": "Option D for question 174"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Plant Physiology.",
+    "difficulty": "Hard",
+    "year": 2023
+  },
+  {
+    "id": "175",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 175",
+      "B": "Option B for question 175",
+      "C": "Option C for question 175",
+      "D": "Option D for question 175"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Cell Biology.",
+    "difficulty": "Easy",
+    "year": 2020
+  },
+  {
+    "id": "176",
+    "subject": "Biology",
+    "topic": "Genetics",
+    "subtopic": "Genetics Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Genetics. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 176",
+      "B": "Option B for question 176",
+      "C": "Option C for question 176",
+      "D": "Option D for question 176"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Genetics.",
+    "difficulty": "Medium",
+    "year": 2021
+  },
+  {
+    "id": "177",
+    "subject": "Biology",
+    "topic": "Ecology",
+    "subtopic": "Ecology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Ecology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 177",
+      "B": "Option B for question 177",
+      "C": "Option C for question 177",
+      "D": "Option D for question 177"
+    },
+    "correct": "C",
+    "explanation": "The correct answer is C because of the principles of Ecology.",
+    "difficulty": "Hard",
+    "year": 2022
+  },
+  {
+    "id": "178",
+    "subject": "Biology",
+    "topic": "Human Physiology",
+    "subtopic": "Human Physiology Subtopic 1",
+    "question": "This is a sample Easy question for Biology in the topic of Human Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 178",
+      "B": "Option B for question 178",
+      "C": "Option C for question 178",
+      "D": "Option D for question 178"
+    },
+    "correct": "D",
+    "explanation": "The correct answer is D because of the principles of Human Physiology.",
+    "difficulty": "Easy",
+    "year": 2023
+  },
+  {
+    "id": "179",
+    "subject": "Biology",
+    "topic": "Plant Physiology",
+    "subtopic": "Plant Physiology Subtopic 2",
+    "question": "This is a sample Medium question for Biology in the topic of Plant Physiology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 179",
+      "B": "Option B for question 179",
+      "C": "Option C for question 179",
+      "D": "Option D for question 179"
+    },
+    "correct": "A",
+    "explanation": "The correct answer is A because of the principles of Plant Physiology.",
+    "difficulty": "Medium",
+    "year": 2020
+  },
+  {
+    "id": "180",
+    "subject": "Biology",
+    "topic": "Cell Biology",
+    "subtopic": "Cell Biology Subtopic 3",
+    "question": "This is a sample Hard question for Biology in the topic of Cell Biology. What is the correct answer?",
+    "options": {
+      "A": "Option A for question 180",
+      "B": "Option B for question 180",
+      "C": "Option C for question 180",
+      "D": "Option D for question 180"
+    },
+    "correct": "B",
+    "explanation": "The correct answer is B because of the principles of Cell Biology.",
+    "difficulty": "Hard",
+    "year": 2021
+  }
+]
